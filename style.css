@@ -1,0 +1,285 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #201b2d;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 900;
+}
+
+p{
+	line-height: 1.66em;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.header{
+	background: rgba(78,189,254,1);
+	background: -moz-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(78,189,254,1)), color-stop(100%, rgba(55,144,217,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: linear-gradient(135deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebdfe', endColorstr='#3790d9', GradientType=1 );
+	padding-top: 62px;
+	padding-bottom: 95px;
+	color: #fff;
+}
+
+.wrapper{
+	display: flex;
+	justify-content: space-between;
+}
+
+span{
+	font-size: 44px;
+}
+
+.offer{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 900;
+	margin-top: 160px;
+	width: 560px;
+}
+
+.title{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	margin-top: 20px;
+	width: 400px;
+}
+
+.btn{
+	font-family: 'Montserrat', sans-serif;
+	background: #ffd429;
+	color: #000;
+	font-size: 15px;
+	width: 220px;
+	display: block;
+	padding: 20px 0;
+	text-decoration: none;
+	text-align: center;
+	margin: 0;
+	margin-top: 41px;
+	cursor: pointer;
+	transition: all 0.5s ease;
+}
+
+.btn:hover{
+	background: #ecc320;
+}
+
+
+.lessons_title{
+	margin-top: 110px;
+	background: #fff;
+	text-align: center;
+}
+
+.title_icon{
+	text-align: center;
+	width: 295px;
+}
+
+.icon1{
+	margin-top: 71px;
+}
+
+.flex{
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	padding-bottom: 120px;
+}
+
+form{
+	max-width: 340px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 auto;
+	padding-top: 60px;
+}
+
+input{
+	border: 1px solid #bbbbbb;
+	width: 333px;
+	color: #85828c;
+	font-size: 15px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	height: 54px;
+	padding-left: 10px;
+	border-radius: 2px;
+}
+
+
+.email,.tel,.travel{
+	margin-top: 15px;
+
+}
+
+.mail{
+	background: #ecf3f8;
+	padding-top: 104px;
+	padding-bottom: 113px;
+}
+
+.class-center{
+	text-align: center;
+}
+
+.button{
+	font-family: 'Montserrat', sans-serif;
+	background: #ffd429;
+	color: #000;
+	font-size: 15px;
+	width 100%;
+	display: block;
+	padding: 20px 85px;
+	text-decoration: none;
+	text-align: center;
+	margin: 0;
+	margin-top: 15px;
+	cursor: pointer;
+	transition: all 0.5s ease;
+}
+
+.button:hover{
+	background: #ecc320;
+}
+
+footer{
+	background: #164d7a;
+}
+
+.credits{
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+	margin: 0;
+	padding-top: 63px;
+	padding-bottom: 67px;
+}
+
+.color{
+	color: #478BFF;
+}
+
+.red{
+	color: red;
+}
+/*responsive*/
+
+/* 992 x 1200 */
+@media screen and (max-width: 1200px){
+	.container{
+		width: 960px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.plain{
+		height: 570px;
+		width: 570px;
+	}
+	.offer{
+		margin-top: 120px;
+		width: 540px;
+	}
+
+}
+
+/* 768 x 992 */
+@media screen and (max-width: 992px){
+	.container{
+		width: 720px;
+	}
+	.wrapper{
+		flex-direction: column;
+	}
+	.offer{
+		width: 100%;
+	}
+
+}
+
+/* 576 x 768 */
+@media screen and (max-width: 768px){
+	.container{
+		width: 540px;
+	}
+	.flex{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.plain{
+		width: 450px;
+		height: 450px;
+		margin: 0 auto;
+	}
+	.btn{
+		width: 100%;
+	}
+	.credits{
+		padding-top: 53px;
+		padding-bottom: 57px;
+	}
+}
+
+/* 320 x 576 */
+@media screen and (max-width: 576px){
+	.container{
+		width: 90%;
+	}
+	.offer {
+		font-size: 12px;
+		margin-top: 60px;
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+	.title{
+		font-size: 14px;
+		width: 300px;
+	}
+	span{
+		font-size: 30px;
+	}
+	.btn{
+		width: 100%;
+	}
+	.plain{
+		width: 300px;
+		height: 300px;
+		margin: 0 auto;
+		padding-top: 60px;
+		padding-bottom: 0;
+	}
+	.input,.email,.tel,.travel{
+		width: 280px;
+	}
+	.button{
+		padding: 20px 59px;
+	}
+	.credits{
+		padding-top: 43px;
+		padding-bottom: 47px;
+	}
+}
