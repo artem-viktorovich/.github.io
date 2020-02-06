@@ -1,0 +1,142 @@
+@import url(https://fonts.googleapis.com/css?family=Century Gothic:300,400,500,600,700,900);
+
+.contact_form_wrap {
+    padding: 70px 0 110px 0;
+}
+
+.contact_form_wrap .contact_form_title {
+    color: #333333;
+    font-size: 35px;
+    font-weight: normal;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 55px;
+}
+.row-center{
+    text-align: center;
+}
+
+.contact_form .form-group {
+    margin-bottom: 30px;
+
+}
+
+.contact_form .form-group .form-control {
+    color: #333333;
+    font-weight: 300;
+    font-size: 15px;
+    font-family: "Century Gothic", sans-serif;
+    line-height: 30px;
+    border: 1px solid #c1c1c1;
+    box-shadow: none;
+    outline: none;
+    border-radius: 0;
+    height: 60px;
+    padding: 10px 25px;
+    transition: all 0.5s;
+  
+
+}
+
+.contact_form .form-group .form-control::-webkit-input-placeholder {
+    color: #909090;
+}
+
+.contact_form .form-group .form-control::-moz-placeholder {
+    color: #909090;
+}
+
+.contact_form .form-group .form-control:-ms-input-placeholder {
+    color: #909090;
+}
+
+.contact_form .form-group .form-control:-moz-placeholder {
+    color: #909090;
+}
+
+.contact_form .form-group .form-control:focus {
+    border-color: #333333;
+}
+
+.contact_form .form-group textarea.form-control {
+    min-height: 200px;
+}
+
+
+.contact_form .form-group .sibmit_btn:hover {
+
+    background-size: 0px 50px;
+    background-position: -50px -50px;
+    color: #292929;
+}
+.contact_form .form-group .form-control .{
+  
+}
+#result_form{
+    font-family: "Century Gothic", sans-serif;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: flex-end;
+    margin: 29px 0px 0px 0px;
+    font-size: 15px;
+}
+.form-btn{
+    width: 30%;
+}
+.form-control{
+    margin: 0 auto;
+    resize: none;
+    width: 100%;
+    padding-top: 10px;
+}
+.form_dtn-result{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    -ms-align-items: center;
+   
+}
+.form-row{
+    padding-bottom: 10px;
+}
+.row{
+    margin: 0 auto;
+    width: 70%;
+}
+
+@media (max-width: 767.98px) {
+    .form_dtn-result{
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        -o-flex-direction: column;
+        justify-content: center;
+        -ms-align-items: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .form-btn{
+    width: 100%;
+}
+#result_form{
+    margin: 15px 0px 0px 0px;
+}
+.contact_form_wrap {
+    padding: 70px 0 70px 0;
+}
+    .form-row{
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        -o-flex-direction: column;
+        flex-direction: column;
+    }
+
+
+}

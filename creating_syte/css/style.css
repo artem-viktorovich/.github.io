@@ -129,8 +129,8 @@ header {
       margin: 0 auto;
       font-size: 25px; } }
   @media (max-width: 500px) {
-    .header__title {
-      font-size: 18px; } }
+    .header__title h1 {
+      font-size: 25px; } }
   .header__title span {
     font-size: 44px;
     margin: 0px 0px 20px 0px; }
@@ -195,7 +195,8 @@ header {
       left: 50%; } }
   @media (max-width: 480px) {
     .title {
-      width: 290px; } }
+      width: 290px;
+      font-size: 15px; } }
 
 .button {
   margin-top: 41px; }
@@ -209,11 +210,11 @@ header {
       width: 500px; } }
 
 .lessons_title {
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 22px;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 35px;
   text-align: center;
   padding: 110px 0px 60px 0px;
-  font-weight: 700; }
+  font-weight: 400; }
 
 .lessons__row {
   display: -webkit-box;
@@ -277,30 +278,6 @@ header {
   @media (max-width: 767.98px) {
     .icon-row {
       padding: 0; } }
-
-.form__column {
-  width: 250px;
-  border-radius: 15px;
-  background-color: rgba(0, 0, 0, 0.2); }
-
-.form-row {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  font-size: 0;
-  padding: 30px 0px 30px 0px; }
-
-textarea {
-  height: 100px;
-  width: 100%;
-  padding: 10px 0px 0px 0px;
-  resize: none;
-  border-bottom: 1px solid #000; }
-
-.button__fw {
-  width: 220px; }
 
 footer {
   background-color: #1A1A24; }
@@ -385,7 +362,8 @@ form {
   font-size: 14px; }
 
 .input-phone {
-  padding: 10px 20px; }
+  padding: 10px 20px;
+  font-size: 15px; }
 
 .btn {
   display: inline-block;
@@ -409,15 +387,15 @@ form {
   transition: all 0.5s ease; }
   .btn__h {
     border-radius: 50px; }
-  .btn a {
-    color: #fff; }
   .btn:hover {
     background: #fbc614;
     background: -webkit-linear-gradient(72deg, #fbc614 0%, #ec5d04 83%);
     background: -o-linear-gradient(72deg, #fbc614 0%, #ec5d04 83%);
     background: -webkit-linear-gradient(288deg, #fbc614 0%, #ec5d04 83%);
     background: -o-linear-gradient(288deg, #fbc614 0%, #ec5d04 83%);
-    background: linear-gradient(162deg, #fbc614 0%, #ec5d04 83%); }
+    background: linear-gradient(162deg, #fbc614 0%, #ec5d04 83%);
+    text-decoration: none;
+    color: #fff; }
   .btn.fw {
     width: 100%;
     margin: 15px 0px; }
@@ -430,58 +408,7 @@ input[type=text], input[type=email], input[type=tel], textarea {
 .input {
   border-radius: 0 !important;
   width: 100%;
-  display: block;
-  padding: 10px 20px;
-  margin: 0px 0 15px 0;
-  border-bottom: 1px solid #000;
+  padding: 10px 15px;
   font-size: 15px; }
-  .input:first-child {
-    margin: 15px 0px 15px 0px; }
-
-input::-webkit-input-placeholder {
-  opacity: 1;
-  -webkit-transition: opacity 0.3s ease;
-  -o-transition: opacity 0.3s ease;
-  transition: opacity 0.3s ease; }
-
-input::-moz-placeholder {
-  opacity: 1;
-  -webkit-transition: opacity 0.3s ease;
-  -o-transition: opacity 0.3s ease;
-  transition: opacity 0.3s ease; }
-
-input:-moz-placeholder {
-  opacity: 1;
-  -webkit-transition: opacity 0.3s ease;
-  -o-transition: opacity 0.3s ease;
-  transition: opacity 0.3s ease; }
-
-input:-ms-input-placeholder {
-  opacity: 1;
-  -webkit-transition: opacity 0.3s ease;
-  -o-transition: opacity 0.3s ease;
-  transition: opacity 0.3s ease; }
-
-input:focus::-webkit-input-placeholder {
-  opacity: 0;
-  -webkit-transition: opacity 0.3s ease;
-  -o-transition: opacity 0.3s ease;
-  transition: opacity 0.3s ease; }
-
-input:focus::-moz-placeholder {
-  opacity: 0;
-  -webkit-transition: opacity 0.3s ease;
-  -o-transition: opacity 0.3s ease;
-  transition: opacity 0.3s ease; }
-
-input:focus:-moz-placeholder {
-  opacity: 0;
-  -webkit-transition: opacity 0.3s ease;
-  -o-transition: opacity 0.3s ease;
-  transition: opacity 0.3s ease; }
-
-input:focus:-ms-input-placeholder {
-  opacity: 0;
-  -webkit-transition: opacity 0.3s ease;
-  -o-transition: opacity 0.3s ease;
-  transition: opacity 0.3s ease; }
+  .input.err {
+    border: 1px solid red; }
