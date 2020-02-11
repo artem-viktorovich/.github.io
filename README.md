@@ -3,4 +3,4 @@
 
 
 ## Тестирование сайта
-[Тестирование сайта](http://surl.li/bsk)
+[Тестирование сайта](https://artem-viktorovich.github.io/creating_syte/index.html)
