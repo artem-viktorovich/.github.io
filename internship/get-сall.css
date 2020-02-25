@@ -1,0 +1,96 @@
+.getCall {
+    background: rgba(0, 0, 0, .55);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    display: none
+}
+
+.getCallOpen {
+    cursor: pointer
+}
+
+.container,
+.container .row {
+    height: 100%
+}
+
+.getCall__img {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 10px
+}
+
+.getCall__img img {
+    width: 350px
+}
+
+.getCall__title {
+    font-weight: bolder;
+    font-size: 20px
+}
+
+.getCall__desc {
+    margin-bottom: 10px
+}
+
+.getCall__input {
+    height: 50px;
+    width: 250px;
+    padding-left: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    outline: 0
+}
+
+.getCall__button {
+    height: 50px;
+    outline: 0;
+    width: 160px;
+    border: none;
+    border-radius: 5px
+}
+
+.getCall__content-close {
+    width: 20px;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    cursor: pointer;
+    float: right;
+    text-align: right
+}
+
+.close svg line#Line_18 {
+    transform: rotate(45deg);
+    width: 100%
+}
+
+.close svg line#Line_19 {
+    transform: rotate(-45deg);
+    width: 100%
+}
+
+.getCall__content {
+    background: #fff;
+    height: 530px;
+    vertical-align: middle;
+    border-radius: 10px
+}
+
+@media(max-width:766px) {
+    .getCall__content {
+        height: 640px
+    }
+
+    .getCall__button {
+        margin-top: 10px
+    }
+
+    .getCall__img {
+        margin-top: 50px
+    }
+}
