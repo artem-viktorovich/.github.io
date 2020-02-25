@@ -7,4 +7,4 @@
 
 
 ## Демонстрация работы
-[Тестирование сайта](https://artem-viktorovich.github.io/internship/index.html)
+[Демонстрация работы](https://artem-viktorovich.github.io/internship/index.html)
