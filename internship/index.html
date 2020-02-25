@@ -8,11 +8,17 @@
     <link rel="stylesheet" href="./get-сall.css">
 </head>
 <body>
-    <section class="getCall">
+	<!-- !DONE задал кнопку для вызова модалки -->
+		<section id="modal__button"> 
+			<button class="btn btn-dark" >
+				  Заказать звонок
+			</button>
+		</section>
+    <section id="modal" class="getCall">
 		<div class="container">
 			<div class="row justify-content-center align-items-center align-content-center">
-				<div class="col-lg-5 getCall__content">
-					<div class="getCall__content-close">
+				<div class="col-lg-6 getCall__content">
+					<div id="close" class="getCall__content-close">
                         <svg xmlns="http://www.w3.org/2000/svg" width="17.241" height="17.241" viewBox="0 0 17.241 17.241">
                             <g id="Group_1467" data-name="Group 1467" transform="translate(0.707 0.707)">
                               <line id="Line_18" data-name="Line 18" x2="15.827" y2="15.827" fill="none" stroke="#ccc" stroke-width="2"/>
@@ -24,13 +30,25 @@
 					<div class="text-center getCall__title">Введите номер телефона</div>
 					<div class="text-center getCall__desc">Наш Менеджер позвонит вам в течении 5 минут</div>
 
-					<form class="text-center" action="" method="post">
+		<!-- !DONE пустой action -->		<form class="text-center" action="#" method="post">
 						<input class="getCall__input" type="text" name="phone" placeholder="Введите телефон">
 						<input class="btn-primary getCall__button" type="submit" name="getCallButton" value="Заказать звонок">
 					</form>
 				</div>
 			</div>
 		</div>
+
 	</section>
+	  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+	<script>
+		$('#modal__button').on('click', function() {
+        $('#modal').fadeIn();
+		    })
+		    $("#close").on('click', function() {
+		        $('#modal').fadeOut();
+		    })
+	</script>
+
 </body>
 </html>
