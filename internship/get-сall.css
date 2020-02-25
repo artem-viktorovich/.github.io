@@ -6,35 +6,40 @@
     left: 0;
     top: 0;
     z-index: 999;
-    display: none
+    display: none;
 }
 
 .getCallOpen {
-    cursor: pointer
+    cursor: pointer;
 }
 
 .container,
 .container .row {
     height: 100%
 }
-
+.col-lg-6,
+.getCall__content{
+    height: 80%;
+}
 .getCall__img {
     text-align: center;
     margin-top: 25px;
     margin-bottom: 10px
+    
 }
 
-.getCall__img img {
-    width: 350px
+.getCall__img img { /*!DONE адаптировал картинку*/
+    width: 350px;
+    max-width: 100%;
 }
 
 .getCall__title {
     font-weight: bolder;
-    font-size: 20px
+    font-size: 20px;
 }
 
 .getCall__desc {
-    margin-bottom: 10px
+    margin-bottom: 10px;
 }
 
 .getCall__input {
@@ -43,7 +48,7 @@
     padding-left: 20px;
     border: 1px solid gray;
     border-radius: 5px;
-    outline: 0
+    outline: 0;
 }
 
 .getCall__button {
@@ -51,7 +56,7 @@
     outline: 0;
     width: 160px;
     border: none;
-    border-radius: 5px
+    border-radius: 5px;
 }
 
 .getCall__content-close {
@@ -61,36 +66,70 @@
     top: 15px;
     cursor: pointer;
     float: right;
-    text-align: right
+    text-align: right;
 }
 
 .close svg line#Line_18 {
     transform: rotate(45deg);
-    width: 100%
+    width: 100%;
 }
 
 .close svg line#Line_19 {
     transform: rotate(-45deg);
-    width: 100%
+    width: 100%;
 }
 
 .getCall__content {
     background: #fff;
     height: 530px;
     vertical-align: middle;
-    border-radius: 10px
+    border-radius: 10px;
 }
+#modal__button{
+    height: 100vh;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+
+}
+
+
 
 @media(max-width:766px) {
     .getCall__content {
-        height: 640px
+        height: 400px;  /* !DONE сделал горизонтального. высоту для горизонтального просотра*/
     }
 
     .getCall__button {
-        margin-top: 10px
+        margin-top: 10px;
     }
 
     .getCall__img {
-        margin-top: 50px
+        margin-top: 50px;
+    }
+    .getCall__input{
+        height: 40px;
+        width: 180px;
+        padding-left: 20px;
+    }
+    .getCall__button{
+
+        height: 40px;
+        width: 160px;
+    }
+}
+
+/*!DONE добавил отступы по бокам для мобильных устройств*/
+@media(max-width:578px) {
+    .row{
+        padding: 0px 20px;
+    }
+    .getCall__content {
+        height: 80%;  /* !DONE сделал резинову высоту для вертикального просотра*/
     }
 }
