@@ -6,7 +6,7 @@
     left: 0;
     top: 0;
     z-index: 999;
-/*    display: none;*/
+    display: none;
 }
 
 .getCallOpen {
@@ -15,12 +15,9 @@
 
 .container,
 .container .row {
-    height: 100%
+    height: 100%;
 }
-.col-lg-6,
-.getCall__content{
-    height: 80%;
-}
+
 .getCall__img {
     text-align: center; 
     max-width: 347px;
@@ -35,8 +32,9 @@
 
 .getCall__img img { /*!DONE адаптировал картинку*/
     height: 100%;
+    width: 100%;
     object-fit: cover;
-    object-position: -90px 50%;
+    object-position: center;
 }
 
 .getCall__title {
@@ -54,34 +52,34 @@
     padding: 0 20px 0 20px;
     border: 1px solid #CCCCCC; /*исправил цвет рамки*/
     border-radius: 5px;
-    outline: 0;
+   /* outline: 0;*/ /*убрал outline*/
 }
 
 .getCall__button {
-    height: 47px; /*убрал outline*/
+    height: 47px; 
     width: 150px;
     border: none;
     border-radius: 5px;
 }
 
 .getCall__content-close {
-    width: 20px;
+  /*  width: 20px; !DONE лишнее свойство*/ 
     position: absolute;
     right: 20px;
     top: 12px; /*подогнал крестик*/
     cursor: pointer;
-    float: right;
-    text-align: right;
+   /* float: right; !DONE лишнее свойство*/ 
+   /* text-align: right; !DONE лишнее свойство*/ 
 }
 
 .close svg line#Line_18 {
     transform: rotate(45deg);
-    width: 100%;
+    /*width: 100%; !DONE лишнее свойство*/ 
 }
 
 .close svg line#Line_19 {
     transform: rotate(-45deg);
-    width: 100%;
+   /* width: 100%;!DONE лишнее свойство*/ 
 }
 
 .getCall__content {
@@ -103,70 +101,35 @@
 
 }
 
-@media(max-width:1203px) {
-    .container{
-        max-width: 1200px;
-    }
+@media(max-width:1203px) { /* !DONE прописаны новые свойства*/
     .getCall__img {
         max-width: 300px;
         height: 300px; 
     }
-    .getCall__img img {
-    height: 80%;
-    object-position: left center;
-    object-fit: fill;
-    }
-    .getCall__content{
-        width: 470px;
-    }
 }
-@media(max-width:1000px) {
+@media(max-width:1000px) {/* !DONE прописаны новые свойства*/
     .getCall__content {
         width: 400px;  /* !DONE сделал резинову высоту для вертикального просотра*/
     }
     .getCall__button {
         margin-top: 10px;
-    }
-    .getCall__button {
-        margin-top: 10px;
-    }
-
-    .getCall__img {
-        margin-top: 50px;
-    }
-    
-}
-
-@media(max-width:766px) {
-    .getCall__content {
-        height: 80%;  /* !DONE сделал резинову высоту для вертикального просотра*/
-    }
-
-    .getCall__button {
-        margin-top: 10px;
-    }
-
-    .getCall__img {
-        margin-top: 50px;
-    }
-    .getCall__input{
-        height: 40px;
-        width: 180px;
-        padding-left: 20px;
-    }
-    .getCall__button{
-
         height: 40px;
         width: 160px;
     }
 }
+/*
+@media(max-width:766px) {
+  !DONE лишнее
+}
+*/
 
 /*!DONE добавил отступы по бокам для мобильных устройств*/
 @media(max-width:578px) {
     .row{
         padding: 0px 20px;
     }
-    .getCall__content {
-        height: 80%;  /* !DONE сделал резинову высоту для вертикального просотра*/
+    .getCall__img {
+         height: 260px; 
+        margin-top: 50px;
     }
 }
