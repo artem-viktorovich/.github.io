@@ -8,3 +8,6 @@
 
 ## Демонстрация работы
 [Демонстрация работы](https://artem-viktorovich.github.io/internship/index.html)
+
+## Калькулятор
+[Калькулятор](https://artem-viktorovich.github.io/calc/index.html)
