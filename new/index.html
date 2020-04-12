@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 	<head>
-		<title>Главная</title>
+		<title>Верстальщик</title>
 		<meta charset="UTF-8">
 		<meta name="format-detection" content="telephone=no">
 		<link rel="stylesheet" href="css/style.css">
@@ -15,7 +15,10 @@
 		<div class="wrapper">
 			<div class="fullscreen ibg">
 				<div class="container">
-					
+					<img src="img/easter-5010012_1920.jpg" alt="" />
+					<!-- <div class="logo">
+						<img src="img/2524621-02.png" alt="" />
+					</div> -->
 				</div>
 			</div>
 <!-- <header class="header">
@@ -59,11 +62,15 @@
 		</div>
 	</div>
 </header> -->
+
 <header class="header">
 				<div class='container'>
 					<div class="header__body">
 						<div class="header__burger">
 							<span></span>
+						</div>
+						<div class="logo">
+							<img src="img/2524621-02.png" style="width: 65px"alt="" />
 						</div>
 						<nav class="header__menu">
 							<ul class="header__list">
@@ -165,7 +172,7 @@
 						<div class="slider">
 							<div class="slider_item">
 								<div class="slider_img ibg"><img src="img/3.png" alt="Заказчик"></div>
-								<div class="slider_head">Измайлов гриша</div>
+								<div class="slider_head">Измайлов Гриша</div>
 								<div class="slider_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis eaque nulla perferendis eum quibusdam atque sit sapiente officia a et!</div>
 							</div>
 							<div class="slider_item">
@@ -197,9 +204,9 @@
 			</div>
 			<div id="popap"class="btn"><a href="#number" class="popap pl">Заказать звонок</a></div>
 			<div class="social_icon">
-				<li><a href=""><img class="mg"src="img/icons/in.svg" alt=""></a></li>
-				<li><a href=""><img src="img/icons/facebook.svg" alt=""></a></li>
-				<li><a href=""><img src="img/icons/Telegram.svg" alt=""></a></li>
+				<li><a href="https://www.linkedin.com/in/%D0%B0%D1%80%D1%82%D0%B5%D0%BC-%D0%B2%D0%B0%D1%81%D0%B5%D1%87%D0%BA%D0%BE-83465218b/" target="_blank"><img class="mg"src="img/icons/in.svg" alt=""></a></li>
+				<li><a href="https://www.facebook.com/zakrevckijartem" target="_blank"><img src="img/icons/facebook.svg" alt=""></a></li>
+				<li><a href="https://t.me/Artemon_22" target="_blank"><img src="img/icons/Telegram.svg" alt=""></a></li>
 			</div>
 		</div>
 	</div>
@@ -213,7 +220,15 @@
 				<div class="popup__txt"></div>
 				<form action="#" class="popup-form form">
 					<div class="form-input">
-						<input autocomplete="off" type="number" name="form[]" data-value="" class="input" />
+						<input autocomplete="off" type="tel" name="form[]" data-value="" id="tel_popap" class="input_numder" />
+					</div>
+					<div class="icon__popap">
+						<span class="icon_watsapp">
+							<img src="../img/icons/whatsapp.svg" alt="" />
+						</span>
+						<span class="icon_viber">
+							<img src="../img/icons/viber.svg" alt="" />
+						</span>
 					</div>
 					<div class="form-button">
 						<button type="submit" class="form__btn btn fw">Заказать звонок</button>
