@@ -1321,6 +1321,14 @@ li .mg {
           align-items: center;
   padding: 0px 0px 75px 0px;
 }
+@media (max-width: 700px) {
+  .info__card-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
 .info__card {
   -webkit-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
           box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
