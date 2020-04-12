@@ -6,7 +6,7 @@
 [Тестирование сайта](https://artem-viktorovich.github.io/creating_syte/index.html)
 
 
-## Демонстрация работы
+## Модалка
 [Демонстрация работы](https://artem-viktorovich.github.io/internship/index.html)
 
 ## Калькулятор
