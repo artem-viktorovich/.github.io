@@ -11,3 +11,6 @@
 
 ## Калькулятор
 [Калькулятор](https://artem-viktorovich.github.io/calc/index.html)
+
+## new
+[new](https://artem-viktorovich.github.io/new/index.html)
