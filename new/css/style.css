@@ -1073,6 +1073,105 @@ li .mg {
   }
 }
 
+.portfolio-small {
+  position: relative;
+  margin: 0 0 107px 0;
+}
+
+/* Слайдер запущен */
+/* Слайдер с точками */
+/* Ограничивающая оболочка */
+.slick-list {
+  /*width: 1368px;*/
+  overflow: hidden;
+}
+
+/* Лента слайдов */
+.portfolio-small.slick-track {
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* Слайд */
+/* Слайд активный (показывается) */
+/* Слайд основной */
+/* Слайд по центру */
+/* Клонированный слайд */
+/* Стрелка */
+/* Стрелка влево */
+/* Стрелка вправо */
+/* Стрелка не активная */
+/* Точки (булиты) */
+/* Активная точка */
+/* Элемент точки */
+.portfolio-small .slick-arrow {
+  position: absolute;
+  top: 30%;
+  font-size: 0;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  z-index: 10;
+}
+@media (max-width: 767.98px) {
+  .portfolio-small .slick-arrow {
+    top: 110%;
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.portfolio-small .slick-arrow:hover {
+  outline: none;
+}
+
+.portfolio-small .slick-arrow.slick-prev {
+  background-image: url("../img/icons/p-left.svg");
+  background: #456C90;
+  left: 5px;
+}
+
+.portfolio-small .slick-arrow.slick-next {
+  background-image: url("../img/icons/p-right.svg");
+  background: #456C90;
+  right: 5px;
+}
+@media (max-width: 767.98px) {
+  .portfolio-small .slick-arrow.slick-next {
+    left: 70px;
+  }
+}
+
+.portfolio-big {
+  position: relative;
+  margin: 0 0 107px 0;
+}
+
+/* Слайдер запущен */
+/* Слайдер с точками */
+/* Ограничивающая оболочка */
+.slick-list {
+  /*width: 1368px;*/
+  overflow: hidden;
+}
+
+/* Лента слайдов */
+/* Слайд */
+/* Слайд активный (показывается) */
+/* Слайд основной */
+/* Слайд по центру */
+/* Клонированный слайд */
+/* Стрелка */
+/* Стрелка влево */
+/* Стрелка вправо */
+/* Стрелка не активная */
+/* Точки (булиты) */
+/* Активная точка */
+/* Элемент точки */
 .fullscreen {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1250,6 +1349,42 @@ li .mg {
     padding: 80px 25px 40px 7px;
   }
 }
+
+.portfolio-big {
+  margin: 0px 0px 50px 0px;
+}
+.portfolio-big img {
+  width: 100%;
+}
+.portfolio-slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.portfolio-small .portfolio-slider {
+  padding: 0px 60px;
+}
+@media (max-width: 991.98px) {
+  .portfolio-small .portfolio-slider {
+    margin: 0px 25px;
+  }
+}
+@media (max-width: 767.98px) {
+  .portfolio-small .portfolio-slider {
+    margin: 0px 30px;
+  }
+}
+@media (max-width: 479.98px) {
+  .portfolio-small .portfolio-slider {
+    margin: 0px 30px;
+  }
+}
+
+
 
 .contact_form_wrap {
     padding: 70px 0 110px 0;
