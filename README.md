@@ -16,4 +16,4 @@
 [new](https://artem-viktorovich.github.io/new/index.html)
 
 ## Triumf
-[new](https://artem-viktorovich.github.io/triumf/index.html)
+[Triumf](https://artem-viktorovich.github.io/Triumf/index.html)
