@@ -500,6 +500,7 @@ main {
 	width: 100%;
 }
 .popup {
+	display: none;
 }
 .cell {
 	position: relative;
