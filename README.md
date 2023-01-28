@@ -19,4 +19,5 @@
 [Triumf](https://artem-viktorovich.github.io/triumph/index.html)
 
 ## checbox
-[checbox](https://artem-viktorovich.github.io/checbox/radio.png)
+[bg](https://artem-viktorovich.github.io/bg/Vector1.svg)
+[bg](https://artem-viktorovich.github.io/bg/Vector2.svg)
